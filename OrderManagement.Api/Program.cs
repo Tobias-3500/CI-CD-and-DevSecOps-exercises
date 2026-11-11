@@ -47,4 +47,6 @@ using (var scope = app.Services.CreateScope())
 }
 
 app.MapControllers();
+ThisWillNotCompile();
+
 app.Run();
